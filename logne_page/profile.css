@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color: #fff;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+.logut:hover{
+    background: red;
+}
+button{
+    width: 100px;
+    background: rgb(145, 62, 62);
+    padding: 2px;
+    border-color:none;
+    border-radius: 20px;
+    color: #fff;
+}
+button:hover{
+    background: hsla(300, 84%, 40%, 0.8);
+}
+header{
+    background: black;
+    padding: 6px;
+   
+}
+header div{
+    display: inline-block;
+    margin-right: 50px;
+    padding: 4px;
+}
+body{
+    background-color: darkslategrey;
+    direction: rtl;
+}
+.hh3{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}

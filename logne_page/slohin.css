@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    font-size: 12;
+    color: #fff;
+  font-weight: bold;
+    padding: 10px;
+}
+body{
+    direction: rtl;
+   background: #d0d5da;
+   background-size: cover;
+    box-sizing: border-box;
+}
+main{
+    width: 350px;
+    border-radius: 9% 9% 9% 9%;
+   align-items: center;
+   margin-right: 400px;
+   margin-top: 90px;
+   margin-bottom: 55px;
+   padding: 55px;
+   background-color:rgba(106, 31, 180, 0.9);
+}
+
+.div1 div{
+display: inline-block;
+margin-left: 50px;
+margin-right: 20px;
+}
+a{
+   color: aliceblue;
+text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 9px;
+    text-align: center;
+}
+footer span{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.classdiv{
+    width: 300px;
+    border: 1px #fff solid;
+    border-radius: 30% 0%  100px 2px;
+    background-color: rgba(11, 133, 2, 0.1);
+   
+    padding: 15px;
+}
+.classdiv:hover{
+    background-color: black;
+}
+.classdiv  div{
+   display: inline-block;
+   margin-top: 50px;
+}
+.classdiv  div label{
+    margin-left: 20px;
+    color: #fff;
+}
+input{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+
+}
+input:hover{
+    background-color: rgb(216, 133, 24);
+}
+.in2{
+    margin-right: 29px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius:166px 60%;
+    margin-right: 110px;
+}
+button:hover{
+    background-color: blue;
+}
+p{
+    color: #fff;
+   
+}
+.clss{
+    text-align:right;
+}
+.clss h3{
+    color:red;
+}

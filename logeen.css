@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background: #1c1f54;
+    transform: rotateX('180deg');
+    direction: rtl;
+    font-family: Simplified Arabic ;
+
+}
+header{
+    direction: rtl;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+}
+header div{
+    display: inline-block;
+}
+header div a{
+    text-decoration: none;
+    background: #1c1f54;
+    transform: rotateX('180deg');
+}
+header #div-top div{
+    width: auto;
+    height: auto;
+background-color: hsl(261, 93%, 53%,0.6)  ;
+margin-left: 30px;
+margin-right: 50px;
+font-size: 14px;
+padding: 5px;
+border-radius: 20%;
+}
+header #div-top div:hover{
+    background-color: blue;
+}
+
+ .T1 img{
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 0px 10px 0px 30%;
+   
+}
+.title-1{
+    text-align: center;
+}
+#gett-informtion{
+    background-color: #ffffff60;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.T1{
+    padding: 10px;
+    margin: 5px;
+}
+.T1 p{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.gett-long{
+    width: 60%;
+    margin-right: 300px;
+   display: inline-block;
+}
+
+.gett-long div{
+   
+    width: 200px;
+    height: 330px;
+    border-radius: 60px 0px 50px 0px;
+  background-position: center;
+  box-sizing: border-box;
+  z-index: -9;
+  float: left;
+  background-color:#ffffffa8;
+  margin: 10px;
+  padding: 20px;
+  margin-left: 150px;
+
+}
+.img-long{
+    width: 150px; 
+    height: 100px;
+    border-radius: 130px;
+ }
+.input-bu{
+    width: 100px;
+    height: 70px;
+    padding: 2px;
+    border-radius: 50%;
+}
+.input-dname{
+  text-align:center;
+  background-position: center;
+  border-radius:17% ;
+ background:transparent;
+}
+.div-foorter div{
+    display: inline-block;
+}
+.footer-left{
+    width: 30%;
+    float: left;
+   }
+.footer-center{
+    width: 40%;
+   
+    float: center;
+    color: black;
+}
+.footer-right{
+    width: 30%;
+    float: right;
+}
