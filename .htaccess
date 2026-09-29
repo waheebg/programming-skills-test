@@ -1,0 +1,19 @@
+# ============================================================
+# Programming Skills Test — Root .htaccess
+# Routes all web requests to index.php (MVC entry point)
+# ============================================================
+
+Options -Indexes
+
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Allow direct access to existing physical files or directories
+# (e.g. assets/, legacy_archive/, etc.)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Route all remaining requests through index.php
+RewriteRule ^(.*)$ index.php [QSA,L]

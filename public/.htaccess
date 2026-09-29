@@ -1,0 +1,15 @@
+# ============================================================
+# Programming Skills Test — public/ .htaccess
+# Strips the /public prefix so Router sees clean URIs
+# ============================================================
+
+Options -Indexes
+
+RewriteEngine On
+
+# If the request is for a real file (CSS, JS, images), serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route all non-file requests to public/index.php
+RewriteRule ^ index.php [QSA,L]
